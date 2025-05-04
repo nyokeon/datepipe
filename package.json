@@ -16,10 +16,10 @@
     "chainable",
     "utility"
   ],
-  "author": "community",
+  "author": "Tiago Henrique Candido (Nyokeon)",
   "license": "MIT",
   "dependencies": {
-    "date-fns": "^2.30.0",
+    "date-fns": "^4.0.0",
     "date-fns-tz": "^1.5.7"
   },
   "devDependencies": {
