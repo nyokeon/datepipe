@@ -1,0 +1,30 @@
+{
+  "name": "datepipe",
+  "version": "0.0.0",
+  "description": "Fluent and chainable date utility based on date-fns with timezone support",
+  "main": "dist/DatePipe.js",
+  "module": "dist/DatePipe.js",
+  "types": "dist/DatePipe.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "date",
+    "date-fns",
+    "timezone",
+    "pipe",
+    "chainable",
+    "utility"
+  ],
+  "author": "community",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^1.5.7"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.0.0",
+    "typescript": "^5.2.2"
+  }
+}
